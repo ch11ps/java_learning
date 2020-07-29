@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupCreationTest.java" afterDir="false" />
     </list>
@@ -135,22 +133,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" width="1024" height="664" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1596002101022" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1596018699829">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596023448223">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596018699829" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1596018699827">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596023448223" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596023448221">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596018699827" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1596018699826">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596023448221" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596023448219">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596018699826" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1596018699828">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596023448219" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596023448222">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596018699828" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596023448222" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1596018699833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -179,14 +177,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="808" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596019091245" />
-    <state x="458" y="194" key="extract.method.dialog" timestamp="1596019526974">
+    <state x="309" y="323" key="extract.method.dialog" timestamp="1596022526767">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="194" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1596019526974" />
+    <state x="309" y="323" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1596022526767" />
     <state x="143" y="72" key="new project wizard" timestamp="1596002114161">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="143" y="72" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1596002114161" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1596022742571">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596022742571" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
