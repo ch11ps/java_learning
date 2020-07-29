@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupCreationTest.java" afterDir="false" />
     </list>
@@ -60,10 +62,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunManager" selected="TestNG.GroupCreationTest">
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -132,42 +135,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="31" width="1024" height="664" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1596002101022" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1596016088355">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1596018699829">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596016088355" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1596016088352">
+    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596018699829" />
+    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1596018699827">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596016088352" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1596016088350">
+    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596018699827" />
+    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1596018699826">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596016088350" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1596016088354">
+    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596018699826" />
+    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1596018699828">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596016088354" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1596016088748">
+    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596018699828" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1596018699833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596016088748" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1596016088746">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596018699833" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1596018699831">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1596016088746" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1596016088744">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1596018699831" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1596018699830">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1596016088744" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1596016088747">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1596018699830" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1596018699832">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1596016088747" />
-    <state x="208" y="23" width="1024" height="808" key="SettingsEditor" timestamp="1596001918317">
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1596018699832" />
+    <state x="374" y="73" key="RefactorJ.IntroduceParameterObject" timestamp="1596019979120">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="208" y="23" width="1024" height="808" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596001918317" />
+    <state x="374" y="73" key="RefactorJ.IntroduceParameterObject/0.0.1440.900@0.0.1440.900" timestamp="1596019979120" />
+    <state x="542" y="408" key="ReplaceDuplicatesPrompt" timestamp="1596019268526">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="542" y="408" key="ReplaceDuplicatesPrompt/0.0.1440.900@0.0.1440.900" timestamp="1596019268526" />
+    <state x="208" y="23" width="1024" height="808" key="SettingsEditor" timestamp="1596019091245">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="23" width="1024" height="808" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596019091245" />
+    <state x="458" y="194" key="extract.method.dialog" timestamp="1596019526974">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="194" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1596019526974" />
     <state x="143" y="72" key="new project wizard" timestamp="1596002114161">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
