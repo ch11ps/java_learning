@@ -8,10 +8,10 @@ import org.testng.annotations.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class CreationTests {
+public class ContactCreationTest {
   private WebDriver wd;
 
-  @BeforeSuite(alwaysRun = true)
+  @BeforeMethod(alwaysRun = true)
   public void setUp() throws Exception {
     wd = new FirefoxDriver();
     wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -26,41 +26,6 @@ public class CreationTests {
     wd.findElement(By.name("pass")).clear();
     wd.findElement(By.name("pass")).sendKeys(password);
     wd.findElement(By.xpath("//input[@value='Login']")).click();
-  }
-
-  @Test
-  public void testGroupCreation() throws Exception {
-    gotoGroupPage();
-    initGroupCreation();
-    fillGroupForm(new GroupData("test1", "test2", "test3"));
-    submitGroupCreation();
-    returnToGroupPage();
-  }
-
-  private void gotoGroupPage() {
-    wd.findElement(By.linkText("groups")).click();
-  }
-
-  private void initGroupCreation() {
-    wd.findElement(By.name("new")).click();
-  }
-
-  private void fillGroupForm(GroupData groupData) {
-    wd.findElement(By.name("group_name")).click();
-    wd.findElement(By.name("group_name")).clear();
-    wd.findElement(By.name("group_name")).sendKeys(groupData.getName());
-    wd.findElement(By.name("group_header")).clear();
-    wd.findElement(By.name("group_header")).sendKeys(groupData.getHeader());
-    wd.findElement(By.name("group_footer")).clear();
-    wd.findElement(By.name("group_footer")).sendKeys(groupData.getFooter());
-  }
-
-  private void submitGroupCreation() {
-    wd.findElement(By.name("submit")).click();
-  }
-
-  private void returnToGroupPage() {
-    wd.findElement(By.linkText("group page")).click();
   }
 
   @Test
@@ -155,7 +120,7 @@ public class CreationTests {
     wd.findElement(By.linkText("home page")).click();
   }
 
-  @AfterSuite(alwaysRun = true)
+  @AfterMethod(alwaysRun = true)
   public void tearDown() throws Exception {
     wd.findElement(By.linkText("Logout")).click();
     wd.quit();
@@ -180,3 +145,4 @@ public class CreationTests {
   }
 
 }
+
