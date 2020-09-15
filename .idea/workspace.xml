@@ -26,7 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/ContactCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/ContactCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
       <recent name="ru.stqa.ptf.addressbook" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GroupDeletingTest">
+  <component name="RunManager" selected="TestNG.ContactCreationTest">
     <configuration name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFirstProgram" />
       <module name="sandbox.main" />
@@ -171,9 +172,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ContactCreationTest" />
         <item itemvalue="TestNG.GroupDeletingTest" />
         <item itemvalue="TestNG.ru.stqa.ptf.addressbook" />
-        <item itemvalue="TestNG.ContactCreationTest" />
         <item itemvalue="TestNG.GroupCreationTests" />
         <item itemvalue="Application.MyFirstProgram" />
       </list>
@@ -217,10 +218,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="588" y="271" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1599908774918" />
-    <state x="430" y="209" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1600182119140">
+    <state x="430" y="209" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1600188352131">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="430" y="209" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1440.900@0.0.1440.900" timestamp="1600182119140" />
+    <state x="430" y="209" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1440.900@0.0.1440.900" timestamp="1600188352131" />
     <state x="450" y="326" width="801" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599908779107">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
