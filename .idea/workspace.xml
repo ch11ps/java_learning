@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupCreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupData.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/model/GroupData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/GroupDeletingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupDeletingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +104,7 @@
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.ptf.addressbook.*" />
+          <option name="PATTERN" value="ru.stqa.ptf.addressbook.appmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +138,12 @@
       <module name="addressbook-web-tests.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.ptf.addressbook.*" />
+          <option name="PATTERN" value="ru.stqa.ptf.addressbook.appmanager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.stqa.ptf.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.ptf.addressbook.GroupDeletingTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.ptf.addressbook.tests.GroupDeletingTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -212,30 +215,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="588" y="271" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1599908774918" />
-    <state x="430" y="209" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1599911047004">
+    <state x="430" y="209" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1600179628446">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="430" y="209" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1440.900@0.0.1440.900" timestamp="1599911047004" />
+    <state x="430" y="209" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1440.900@0.0.1440.900" timestamp="1600179628446" />
     <state x="450" y="326" width="801" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599908779107">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="326" width="801" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1599908779107" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1599909084593">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1600015125394">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599909084593" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1599909084591">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600015125394" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1600015125391">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599909084591" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1599909084590">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600015125391" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1600015125390">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599909084590" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1599909084592">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600015125390" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1600015125392">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599909084592" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600015125392" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1596038691134">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -268,10 +271,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="652" y="239" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1599908758678" />
-    <state x="309" y="323" key="extract.method.dialog" timestamp="1599910708162">
+    <state x="309" y="323" key="extract.method.dialog" timestamp="1600179559551">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="309" y="323" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1599910708162" />
+    <state x="309" y="323" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1600179559551" />
     <state x="143" y="72" key="new project wizard" timestamp="1596002114161">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
