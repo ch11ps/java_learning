@@ -16,14 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/ContactCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/ContactCreationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/TestBase.java" afterDir="false" />
-    </list>
+    <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,10 +266,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="208" y="23" width="1024" height="808" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596019091245" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600186139234">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600186139234" />
     <state x="652" y="239" key="chooseDestDirectoryDialog" timestamp="1599908758678">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="652" y="239" key="chooseDestDirectoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1599908758678" />
+    <state x="523" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600186127578">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="523" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1600186127578" />
     <state x="309" y="323" key="extract.method.dialog" timestamp="1599910708162">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
