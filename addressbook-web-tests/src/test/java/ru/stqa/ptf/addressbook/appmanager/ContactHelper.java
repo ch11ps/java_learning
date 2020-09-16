@@ -5,7 +5,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import ru.stqa.ptf.addressbook.model.ContactData;
 
-public class ContactHelper extends HelperBase{
+public class ContactHelper extends HelperBase {
 
   public ContactHelper(FirefoxDriver wd) {
     super(wd);

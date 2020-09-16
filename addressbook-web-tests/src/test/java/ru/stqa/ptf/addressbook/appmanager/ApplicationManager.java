@@ -2,16 +2,16 @@ package ru.stqa.ptf.addressbook.appmanager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
 
+  FirefoxDriver wd;
   private NavigationHelper navigationHelper;
   private GroupHelper groupHelper;
   private SessionHelper sessionHelper;
   private ContactHelper contactHelper;
-
-  FirefoxDriver wd;
 
   public void init() {
     wd = new FirefoxDriver();
