@@ -22,12 +22,12 @@ public class ContactData {
   private final String anniversaryDay;
   private final String anniversaryMonth;
   private final String anniversaryYear;
-  private final String groupName;
+  private final String group;
   private final String address2;
   private final String phone2;
   private final String notes;
 
-  public ContactData(String firstName, String lastName, String middleName, String nickName, String title, String company, String address, String homePhoneNumber, String mobilePhoneNumber, String workPhoneNumber, String faxPhoneNumber, String email_1, String email_2, String email_3, String homePage, String birthDay, String birthMonth, String birthYear, String anniversaryDay, String anniversaryMonth, String anniversaryYear, String groupName, String address2, String phone2, String notes) {
+  public ContactData(String firstName, String lastName, String middleName, String nickName, String title, String company, String address, String homePhoneNumber, String mobilePhoneNumber, String workPhoneNumber, String faxPhoneNumber, String email_1, String email_2, String email_3, String homePage, String birthDay, String birthMonth, String birthYear, String anniversaryDay, String anniversaryMonth, String anniversaryYear, String group, String address2, String phone2, String notes) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.middleName = middleName;
@@ -49,7 +49,7 @@ public class ContactData {
     this.anniversaryDay = anniversaryDay;
     this.anniversaryMonth = anniversaryMonth;
     this.anniversaryYear = anniversaryYear;
-    this.groupName = groupName;
+    this.group = group;
     this.address2 = address2;
     this.phone2 = phone2;
     this.notes = notes;
@@ -139,8 +139,8 @@ public class ContactData {
     return anniversaryYear;
   }
 
-  public String getGroupName() {
-    return groupName;
+  public String getGroup() {
+    return group;
   }
 
   public String getAddress2() {

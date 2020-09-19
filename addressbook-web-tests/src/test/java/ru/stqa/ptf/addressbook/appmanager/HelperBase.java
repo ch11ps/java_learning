@@ -1,9 +1,6 @@
 package ru.stqa.ptf.addressbook.appmanager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 
 public class HelperBase {
   protected WebDriver wd;
@@ -16,10 +13,11 @@ public class HelperBase {
     click(locator);
     if (text != null) {
       String existingText = wd.findElement(locator).getAttribute("value");
-      if (! text.equals(existingText)) {
-        wd.findElement(locator).clear();
+      if (! text.equals(existingText))
+        //wd.findElement(locator).clear(); clear() почему-то не очищает поле, хотя раньше срабатывала
+        wd.findElement(locator).click();
+        wd.findElement(locator).sendKeys(Keys.COMMAND, "A", Keys.DELETE);
         wd.findElement(locator).sendKeys(text);
-      }
     }
   }
 
@@ -36,9 +34,9 @@ public class HelperBase {
     }
   }
 
-  public boolean isElementPresent(By by) {
+  public boolean isElementPresent(By locator) {
     try {
-      wd.findElement(by);
+      wd.findElement(locator);
       return true;
     } catch (NoSuchElementException e) {
       return false;
