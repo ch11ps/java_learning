@@ -17,6 +17,11 @@ public class ContactHelper extends HelperBase {
   }
 
   public void fillContactForm(ContactData contactData, boolean creation) {
+    if (isElementPresent(By.tagName("h1"))
+            && wd.findElement(By.tagName("h1")).getText().equals("Edit / add")
+            && isElementPresent(By.name("Enter"))) {
+      return;
+    }
     type(By.name("firstname"), contactData.getFirstName());
     type(By.name("middlename"), contactData.getMiddleName());
     type(By.name("lastname"), contactData.getLastName());
@@ -71,5 +76,15 @@ public class ContactHelper extends HelperBase {
 
   public void submitContactUpdate() {
     click(By.name("update"));
+  }
+
+  public boolean isThereAContact() {
+    return isElementPresent(By.name("selected[]"));
+  }
+
+  public void createContact(ContactData contact) {
+    initContactCreation();
+    fillContactForm(contact, true);
+    submitContactCreation();
   }
 }
