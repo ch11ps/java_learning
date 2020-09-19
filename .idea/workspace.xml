@@ -25,16 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Primes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/ptf/sandbox/PrimeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/GroupHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupDeletingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupDeletingTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupModificationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,25 +241,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="450" y="326" width="801" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1599908779107" />
-    <state width="1398" height="328" key="GridCell.Tab.0.bottom" timestamp="1600521267244">
+    <state width="1398" height="328" key="GridCell.Tab.0.bottom" timestamp="1600521311104">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="328" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600521267244" />
+    <state width="1398" height="328" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600521311104" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1600268155670" />
-    <state width="1398" height="328" key="GridCell.Tab.0.center" timestamp="1600521267242">
+    <state width="1398" height="328" key="GridCell.Tab.0.center" timestamp="1600521311103">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="328" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600521267242" />
+    <state width="1398" height="328" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600521311103" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1600268155669" />
-    <state width="1398" height="328" key="GridCell.Tab.0.left" timestamp="1600521267241">
+    <state width="1398" height="328" key="GridCell.Tab.0.left" timestamp="1600521311102">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="328" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600521267241" />
+    <state width="1398" height="328" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600521311102" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1600268155668" />
-    <state width="1398" height="328" key="GridCell.Tab.0.right" timestamp="1600521267243">
+    <state width="1398" height="328" key="GridCell.Tab.0.right" timestamp="1600521311104">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="328" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600521267243" />
+    <state width="1398" height="328" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600521311104" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1600268155669" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1600518946620">
       <screen x="0" y="0" width="1440" height="900" />
