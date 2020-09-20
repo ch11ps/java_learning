@@ -7,8 +7,9 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.stqa.ptf.addressbook.model.ContactData;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ContactHelper extends HelperBase {
 
@@ -44,8 +45,8 @@ public class ContactHelper extends HelperBase {
     click(By.name("submit"));
   }
 
-  public void selectContact(int index) {
-    wd.findElements(By.name("selected[]")).get(index).click();
+  public void selectContactById(int id) {
+    wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
   }
 
   public void deleteSelectedContact() {
@@ -54,8 +55,8 @@ public class ContactHelper extends HelperBase {
     wd.findElement(By.cssSelector("div.msgbox"));
   }
 
-  public void editContact(int index) {
-    wd.findElements(By.xpath("//img[@alt='Edit']")).get(index).click();
+  public void editContact() {
+    wd.findElement(By.xpath("//img[@alt='Edit']")).click();
   }
 
   public void submitContactUpdate() {
@@ -68,20 +69,20 @@ public class ContactHelper extends HelperBase {
     submitContactCreation();
   }
 
-  public void modify(int index, ContactData contact) {
-    selectContact(index);
-    editContact(index);
+  public void modify(ContactData contact) {
+    selectContactById(contact.getId());
+    editContact();
     fillContactForm(contact, false);
     submitContactUpdate();
   }
 
-  public void delete(int index) {
-    selectContact(index);
+  public void delete(ContactData contact) {
+    selectContactById(contact.getId());
     deleteSelectedContact();
   }
 
-  public List<ContactData> list() {
-    List<ContactData> contacts = new ArrayList<ContactData>();
+  public Set<ContactData> all() {
+    Set<ContactData> contacts = new HashSet<ContactData>();
     List<WebElement> elements = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));
     for (WebElement element : elements) {
       List<WebElement> cells = element.findElements(By.tagName("td"));
