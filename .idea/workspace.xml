@@ -26,16 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/ContactHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/GroupHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/ContactCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/ContactCreationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/ContactDeletingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/ContactDeletingTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/ContactModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/ContactModificationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupCreationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupDeletingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupDeletingTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupModificationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,34 +266,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="293" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1600550248315" />
-    <state width="1398" height="306" key="GridCell.Tab.0.bottom" timestamp="1600610420550">
+    <state width="1398" height="306" key="GridCell.Tab.0.bottom" timestamp="1600609645135">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600610420550" />
+    <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600609645135" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1600268155670" />
     <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1600539367502" />
     <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1600539716027" />
     <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1600591883877" />
-    <state width="1398" height="306" key="GridCell.Tab.0.center" timestamp="1600610420546">
+    <state width="1398" height="306" key="GridCell.Tab.0.center" timestamp="1600609645132">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="306" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600610420546" />
+    <state width="1398" height="306" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600609645132" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1600268155669" />
     <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1600539367497" />
     <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1600539716023" />
     <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1600591883873" />
-    <state width="1398" height="306" key="GridCell.Tab.0.left" timestamp="1600610420545">
+    <state width="1398" height="306" key="GridCell.Tab.0.left" timestamp="1600609645128">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="306" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600610420545" />
+    <state width="1398" height="306" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600609645128" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1600268155668" />
     <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1600539367496" />
     <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1600539716021" />
     <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1600591883861" />
-    <state width="1398" height="306" key="GridCell.Tab.0.right" timestamp="1600610420548">
+    <state width="1398" height="306" key="GridCell.Tab.0.right" timestamp="1600609645133">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="306" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600610420548" />
+    <state width="1398" height="306" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600609645133" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1600268155669" />
     <state width="1398" height="306" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1600539367499" />
     <state width="1398" height="306" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1600539716024" />
