@@ -69,7 +69,6 @@ public class ContactHelper extends HelperBase {
   }
 
   public void modify(ContactData contact) {
-    selectContactById(contact.getId());
     editContact();
     fillContactForm(contact, false);
     submitContactUpdate();
@@ -96,12 +95,8 @@ public class ContactHelper extends HelperBase {
       int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
       String lastname = cells.get(1).getText();
       String firstname = cells.get(2).getText();
-      String address = cells.get(3).getText();
-      String email = cells.get(4).getText();
-      String mobile = cells.get(5).getText();
       ContactData contact = new ContactData()
-              .withId(id).withLastName(lastname).withFirstName(firstname)
-              .withAddress(address).withMobile(mobile).withEmail(email);
+              .withId(id).withLastName(lastname).withFirstName(firstname);
       contacts.add(contact);
     }
     return contacts;
