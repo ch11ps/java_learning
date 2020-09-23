@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.stqa.ptf.addressbook.model.ContactData;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -62,17 +61,23 @@ public class ContactHelper extends HelperBase {
     click(By.name("update"));
   }
 
+  public boolean isThereAContact() {
+    return isElementPresent(By.name("selected[]"));
+  }
+
   public void create(ContactData contact, boolean creation) {
     initContactCreation();
     fillContactForm(contact, true);
     submitContactCreation();
   }
 
-  public void modify(int index, ContactData contact) {
+  public ContactData modify(List<ContactData> before, int index) {
     selectContact(index);
     editContact(index);
+    ContactData contact = new ContactData(before.get(index).getId(), "Person", "Tester", "Novosibirsk", "88528009080","java@mail.ru");
     fillContactForm(contact, false);
     submitContactUpdate();
+    return contact;
   }
 
   public void delete(int index) {
@@ -80,20 +85,22 @@ public class ContactHelper extends HelperBase {
     deleteSelectedContact();
   }
 
+  public int getContactCount() {
+    return wd.findElements(By.name("selected[]")).size();
+  }
+
   public List<ContactData> list() {
-    List<ContactData> contacts = new ArrayList<ContactData>();
+    List<ContactData> contacts = new ArrayList<>();
     List<WebElement> elements = wd.findElements(By.cssSelector("tr[name=\"entry\"]"));
-    for (WebElement element : elements) {
-      List<WebElement> cells = element.findElements(By.tagName("td"));
-      int id = Integer.parseInt(element.findElement(By.tagName("input")).getAttribute("value"));
-      String lastname = cells.get(1).getText();
-      String firstname = cells.get(2).getText();
+    for (WebElement row : elements) {
+      List<WebElement> cells = row.findElements(By.tagName("td"));
+      int id = Integer.parseInt(row.findElement(By.tagName("input")).getAttribute("value"));
+      String firstname = cells.get(1).getText();
+      String lastname = cells.get(2).getText();
       String address = cells.get(3).getText();
       String email = cells.get(4).getText();
       String mobile = cells.get(5).getText();
-      ContactData contact = new ContactData()
-              .withId(id).withLastName(lastname).withFirstName(firstname)
-              .withAddress(address).withMobile(mobile).withEmail(email);
+      ContactData contact = new ContactData(id, lastname, firstname, address, mobile, email);
       contacts.add(contact);
     }
     return contacts;
