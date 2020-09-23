@@ -25,7 +25,6 @@
     </select>
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
     <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/model/Groups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -37,9 +36,6 @@
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupDeletingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupDeletingTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/ptf/addressbook/tests/GroupModificationTests.java" afterDir="false" />
     </list>
-=======
-    <list default="true" id="320be625-faa1-4425-afc0-411315419251" name="Default Changelist" comment="" />
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,11 +69,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="task9" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fLczm0oJG9Zr7dF6Ofx2mmeKbN" />
@@ -278,62 +269,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="647" y="210" width="641" height="480" key="#xdebugger.XInspectDialog/0.0.1440.900@0.0.1440.900" timestamp="1600616327417" />
-<<<<<<< Updated upstream
     <state width="1398" height="306" key="GridCell.Tab.0.bottom" timestamp="1600627120139">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600627120139" />
-=======
-    <state width="1398" height="306" key="GridCell.Tab.0.bottom" timestamp="1600876901662">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600876901662" />
->>>>>>> Stashed changes
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1600268155670" />
     <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1600539367502" />
     <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1600539716027" />
     <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1600591883877" />
-<<<<<<< Updated upstream
     <state width="1398" height="306" key="GridCell.Tab.0.center" timestamp="1600627120137">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="306" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600627120137" />
-=======
-    <state width="1398" height="306" key="GridCell.Tab.0.center" timestamp="1600876901660">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="306" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600876901660" />
->>>>>>> Stashed changes
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1600268155669" />
     <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1600539367497" />
     <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1600539716023" />
     <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1600591883873" />
-<<<<<<< Updated upstream
     <state width="1398" height="306" key="GridCell.Tab.0.left" timestamp="1600627120135">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="306" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600627120135" />
-=======
-    <state width="1398" height="306" key="GridCell.Tab.0.left" timestamp="1600876901659">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="306" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600876901659" />
->>>>>>> Stashed changes
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1600268155668" />
     <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1600539367496" />
     <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1600539716021" />
     <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1600591883861" />
-<<<<<<< Updated upstream
     <state width="1398" height="306" key="GridCell.Tab.0.right" timestamp="1600627120138">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="306" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600627120138" />
-=======
-    <state width="1398" height="306" key="GridCell.Tab.0.right" timestamp="1600876901661">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="306" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600876901661" />
->>>>>>> Stashed changes
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1600268155669" />
     <state width="1398" height="306" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1600539367499" />
     <state width="1398" height="306" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1600539716024" />
