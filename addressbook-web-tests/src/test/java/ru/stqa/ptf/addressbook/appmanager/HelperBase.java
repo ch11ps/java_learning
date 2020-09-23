@@ -13,11 +13,11 @@ public class HelperBase {
     click(locator);
     if (text != null) {
       String existingText = wd.findElement(locator).getAttribute("value");
-      if (!text.equals(existingText))
+      if (! text.equals(existingText))
         //wd.findElement(locator).clear(); clear() почему-то не очищает поле, хотя раньше срабатывала
         wd.findElement(locator).click();
-      wd.findElement(locator).sendKeys(Keys.COMMAND, "A", Keys.DELETE);
-      wd.findElement(locator).sendKeys(text);
+        wd.findElement(locator).sendKeys(Keys.COMMAND, "A", Keys.DELETE);
+        wd.findElement(locator).sendKeys(text);
     }
   }
 

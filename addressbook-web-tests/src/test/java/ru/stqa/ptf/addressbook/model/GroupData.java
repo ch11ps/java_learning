@@ -19,8 +19,7 @@ public class GroupData {
     return footer;
   }
 
-  public int getId() {
-    return id;
+  public int getId() { return id;
   }
 
   public GroupData withId(int id) {
