@@ -24,12 +24,12 @@ public class GroupHelper extends HelperBase {
     type(By.name("group_footer"), groupData.getFooter());
   }
 
-  public void returnToGroupPage() {
-    click(By.linkText("group page"));
-  }
-
   public void submitGroupCreation() {
     click(By.name("submit"));
+  }
+
+  public void returnToGroupPage() {
+    click(By.linkText("group page"));
   }
 
   public void delteSelectedGroup() {
@@ -48,14 +48,6 @@ public class GroupHelper extends HelperBase {
     click(By.name("update"));
   }
 
-  public boolean isThereAGroup() {
-    return isElementPresent(By.name("selected[]"));
-  }
-
-  public int getGroupCount() {
-    return wd.findElements(By.name("selected[]")).size();
-  }
-
   public void createGroup(GroupData group) {
     initGroupCreation();
     fillGroupForm(group);
@@ -63,18 +55,12 @@ public class GroupHelper extends HelperBase {
     returnToGroupPage();
   }
 
-  public void modifyGroup(int index, GroupData group) {
-    selectGroup(index);
-    initGroupModification();
-    fillGroupForm(group);
-    submitGroupModification();
-    returnToGroupPage();
+  public boolean isThereAGroup() {
+    return isElementPresent(By.name("selected[]"));
   }
 
-  public void deleteGroup(int index) {
-    selectGroup(index);
-    delteSelectedGroup();
-    returnToGroupPage();
+  public int getGroupCount() {
+    return wd.findElements(By.name("selected[]")).size();
   }
 
   public List<GroupData> getGroupList() {

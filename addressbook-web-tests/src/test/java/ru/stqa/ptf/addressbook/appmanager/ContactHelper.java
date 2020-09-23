@@ -71,20 +71,6 @@ public class ContactHelper extends HelperBase {
     submitContactCreation();
   }
 
-  public ContactData modifyContact(List<ContactData> before, int index) {
-    selectContact(index);
-    editContact(index);
-    ContactData contact = new ContactData(before.get(index).getId(), "Person", "Tester", "Novosibirsk", "88528009080","java@mail.ru");
-    fillContactForm(contact, false);
-    submitContactUpdate();
-    return contact;
-  }
-
-  public void deleteContact(int index) {
-    selectContact(index);
-    deleteSelectedContact();
-  }
-
   public int getContactCount() {
     return wd.findElements(By.name("selected[]")).size();
   }
