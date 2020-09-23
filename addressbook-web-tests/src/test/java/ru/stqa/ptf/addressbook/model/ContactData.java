@@ -1,5 +1,7 @@
 package ru.stqa.ptf.addressbook.model;
 
+import java.util.Objects;
+
 public class ContactData {
 
   private int id = Integer.MAX_VALUE;

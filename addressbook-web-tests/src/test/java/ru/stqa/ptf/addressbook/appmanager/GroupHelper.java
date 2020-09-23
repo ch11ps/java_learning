@@ -5,9 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import ru.stqa.ptf.addressbook.model.GroupData;
 
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 public class GroupHelper extends HelperBase {
 
@@ -37,8 +36,8 @@ public class GroupHelper extends HelperBase {
     click(By.name("delete"));
   }
 
-  public void selectGroupById(int id) {
-    wd.findElement(By.cssSelector("input[value='" + id + "']")).click();
+  public void selectGroup(int index) {
+    wd.findElements(By.name("selected[]")).get(index).click();
   }
 
   public void initGroupModification() {
@@ -56,30 +55,22 @@ public class GroupHelper extends HelperBase {
     returnToGroupPage();
   }
 
-  public void modify(GroupData group) {
-    selectGroupById(group.getId());
+  public void modify(int index, GroupData group) {
+    selectGroup(index);
     initGroupModification();
     fillGroupForm(group);
     submitGroupModification();
     returnToGroupPage();
   }
 
-  public void delete(GroupData group) {
-    selectGroupById(group.getId());
+  public void delete(int index) {
+    selectGroup(index);
     delteSelectedGroup();
     returnToGroupPage();
   }
 
-  public boolean isThereAGroup() {
-    return isElementPresent(By.name("selected[]"));
-  }
-
-  public int getGroupCount() {
-    return wd.findElements(By.name("selected[]")).size();
-  }
-
-  public Set<GroupData> all() {
-    Set<GroupData> groups = new HashSet<GroupData>();
+  public List<GroupData> list() {
+    List<GroupData> groups = new ArrayList<GroupData>();
     List<WebElement> elements = wd.findElements(By.cssSelector("span.group"));
     for (WebElement element : elements) {
       String name = element.getText();
