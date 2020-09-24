@@ -32,12 +32,12 @@ public class ContactModificationTests extends TestBase {
             .withMobile("88009001020").withEmail("ya@mail.ru").withGroup("test1");
     app.contact().modify(contact);
     app.goTo().homePage();
-    Contacts after = app.contact().all();
     if (before.size() != 0) {
-      assertThat(after.size(), equalTo(before.size()));
+      assertThat(app.contact().count(), equalTo(before.size()));
     } else {
-      assertThat(after.size(), equalTo(before.size() + 1));
+      assertThat(app.contact().count(), equalTo(before.size() + 1));
     }
+    Contacts after = app.contact().all();
     MatcherAssert.assertThat(after, CoreMatchers.equalTo(before.without(modifiedContact).withAdded(contact)));
   }
 }
